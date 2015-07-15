@@ -109,26 +109,21 @@ J.Common.tip({
 
 ### 成功页组件 （succeed 文件夹），赋予J.Common命名空间下，具体用法如下——
 
-* 参数说明
-  * id    插入到的Dom id 必填
-  * title 主提示语   必填
-  * description 文本描述  可为空
+* J.Common.succeed 方法参数说明：
+  字段 | 描述 | 选项
+  ----|----|----
+  id | 插入到的Dom | 必填
+  title | 主提示语 | 必填
+  description | 文本描述 | 可选
+  butOption | 操作按钮组 | 可选
 
-xxxx | yyyy
-----|----
-1 | 2
-3 |4
+> This is the first level of quoting.
 
-<table>
-    <thead>
-        <tr>
-          <th>字段</th><th>描述</th><th>选项</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr><td>id</td><td>插入到的Dom</td><td>必填</td></tr>
-    </tbody>
-</table>
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
 
 类型一：
 
