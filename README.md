@@ -105,3 +105,48 @@ J.Common.tip({
         console.log('xxxxxx');
     }
 });
+
+### 成功页组件 （succeed 文件夹），赋予J.Common命名空间下，具体用法如下——
+
+* 参数说明
+  * id    插入到的Dom id 必填
+  * title 主提示语   必填
+  * description 文本描述  可为空
+
+xxxx | yyyy
+----|----
+1 | 2
+3 |4
+
+<table>
+    <thead>
+        <tr>
+          <th>字段</th><th>描述</th><th>选项</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>id</td><td>插入到的Dom</td><td>必填</td></tr>
+    </tbody>
+</table>
+
+类型一：
+
+```javascript
+J.Common.succeed({
+    id:'box2',
+    title:'您的账号已注册成功',
+    description:'在您进行投资前，需要开通第三方资金托管账户，以保证您的资金安全。',
+    butOption:[
+        {
+          text:'去开通',
+          event:function(){
+            Router.navigate('trusteeship');
+          }
+        },{
+          text:'稍候再说',
+          event:function(){
+             Router.navigate('home');
+          }
+        }
+    ]
+});
