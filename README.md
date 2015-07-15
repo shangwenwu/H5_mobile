@@ -109,7 +109,7 @@ J.Common.tip({
 
 ### 成功页组件 （succeed 文件夹），赋予J.Common命名空间下，具体用法如下——
 
-> J.Common.succeed 方法参数说明：
+> **J.Common.succeed 方法参数说明：**
 
   字段 | 描述 | 选项
   ----|----|----
@@ -118,7 +118,7 @@ J.Common.tip({
   description | 文本描述 | 可选
   butOption | 操作按钮组 | 可选
 
-> 用法：
+> **用法：**
 
 ```javascript
 J.Common.succeed({
