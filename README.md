@@ -111,12 +111,12 @@ J.Common.tip({
 
 > J.Common.succeed 方法参数说明：
 
-  字段 | 描述 | 选项
+  字段 | 描述 | 选项 | 备注
   ----|----|----
   id | 插入到的Dom | 必填
   title | 主提示语 | 必填
   description | 文本描述 | 可选
-  butOption | 操作按钮组 | 可选
+  butOption | 操作按钮组 | 可选 | Array长度最长为2
 
 > 用法：
 
