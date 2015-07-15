@@ -145,9 +145,9 @@ J.Common.succeed({
 
 > **单独验证调用，赋予J.Utils.validator[type]，使用如下：**
  > ```
-type具体信息如下:checkLoginName, checkRegisterName, checkPassword, checkRePassword, checkEmail, checkMobile, checkIdNumber, checkName, checkSmsCaptcha
+    type具体信息如下:checkLoginName, checkRegisterName, checkPassword, checkRePassword, checkEmail, checkMobile, checkIdNumber, checkName, checkSmsCaptcha
  > ```
- 
+
 ```javascript
 J.Utils.validator.checkMobile(
     mobile, //值
@@ -159,14 +159,22 @@ J.Utils.validator.checkMobile(
 ```
 
 > **扩展用法调用，赋予J.Common.regExpFun，使用如下：**
+ > ```
+  * 说明：
+    * type:参照表单单独验证; 
+    * val:需要验证的值
+    * callbackFun:参照表单单独验证; 
+    * callbackFunBefore:post/get请求数据验证,在回调之前执行
+    * return 该方法有返回值：true/false
+ > ```
 
 ```javascript
-J.Common.regExpFun(
-    type,  //参照表单单独验证type
-    {
-        val:val,
-        callbackFun:callbackFun, //参照表单单独验证的回调
-        callbackFunBefore:callbackFunBefore  //post/get请求数据验证
-    }
+var result = J.Common.regExpFun(
+      type, 
+      {
+          val:val,
+          callbackFun:callbackFun, 
+          callbackFunBefore:callbackFunBefore  
+      }
 );
 ```
