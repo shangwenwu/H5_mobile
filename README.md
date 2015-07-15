@@ -110,6 +110,7 @@ J.Common.tip({
 ### 成功页组件 （succeed 文件夹），赋予J.Common命名空间下，具体用法如下——
 
 * J.Common.succeed 方法参数说明：
+
   字段 | 描述 | 选项
   ----|----|----
   id | 插入到的Dom | 必填
