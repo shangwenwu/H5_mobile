@@ -141,41 +141,32 @@ J.Common.succeed({
 });
 ```
 
-### 表单正则验证，赋予J.Utils.validator[type]，具体用法如下——
+### 表单验证，具体用法如下——
 
-> **J.Common.validator[type] 方法参数说明：**
+> **单独验证调用，赋予J.Utils.validator[type]，使用如下：**
  > ```
 type具体信息如下:checkLoginName, checkRegisterName, checkPassword, checkRePassword, checkEmail, checkMobile, checkIdNumber, checkName, checkSmsCaptcha
  > ```
 
-  字段 | 描述 | 选项
-  ----|----|----
-  id | 插入到的Dom | 必填
-  title | 主提示语 | 必填
-  description | 文本描述 | 可选
-  butOption | 操作按钮组 | 可选
-
-> **用法：**
-
 ```javascript
-J.Common.succeed({
-    id:'box2',
-    title:'您的账号已注册成功',
-    description:'在您进行投资前，需要开通第三方资金托管账户，以保证您的资金安全。',
-    butOption:[
-        {
-          text:'去开通',
-          event:function(){
-            Router.navigate('trusteeship');
-          }
-        },{
-          text:'稍候再说',
-          event:function(){
-             Router.navigate('home');
-          }
-        }
-    ]
-});
+J.Utils.validator.checkMobile(
+    mobile, *//值*
+    function(result,info){  *//回调方法*
+        *//result 验证结果 true/false*
+        *//info   返回提示信息*
+    }
+);
 ```
 
-J.Common.regExpFun('checkSmsCaptcha',{val:captchaVal,callbackFun:callbackFun,callbackFunBefore:captchaCallbackFunBefore}
+> **扩展用法调用，赋予J.Common.regExpFun，使用如下：**
+
+```javascript
+J.Common.regExpFun(
+    type,  *//参照表单单独验证type*
+    {
+        val:val,
+        callbackFun:callbackFun, *//参照表单单独验证的回调*
+        callbackFunBefore:callbackFunBefore  *//post/get请求数据验证*
+    }
+);
+```
