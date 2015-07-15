@@ -118,15 +118,7 @@ J.Common.tip({
   description | 文本描述 | 可选
   butOption | 操作按钮组 | 可选
 
-
-
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
-
-类型一：
+> 用法：
 
 ```javascript
 J.Common.succeed({
