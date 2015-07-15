@@ -144,11 +144,9 @@ J.Common.succeed({
 ### 表单正则验证，赋予J.Utils.validator[type]，具体用法如下——
 
 > **J.Common.validator[type] 方法参数说明：**
->> type具体信息如下:
-
-```
-checkLoginName|checkRegisterName|checkPassword|checkRePassword|checkEmail|checkMobile|checkIdNumber|checkName|checkSmsCaptcha
-```
+ > ```
+type具体信息如下:checkLoginName, checkRegisterName, checkPassword, checkRePassword, checkEmail, checkMobile, checkIdNumber, checkName, checkSmsCaptcha
+ > ```
 
   字段 | 描述 | 选项
   ----|----|----
