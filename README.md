@@ -147,13 +147,13 @@ J.Common.succeed({
  > ```
 type具体信息如下:checkLoginName, checkRegisterName, checkPassword, checkRePassword, checkEmail, checkMobile, checkIdNumber, checkName, checkSmsCaptcha
  > ```
-
+ 
 ```javascript
 J.Utils.validator.checkMobile(
-    mobile, *//值*
-    function(result,info){  *//回调方法*
-        *//result 验证结果 true/false*
-        *//info   返回提示信息*
+    mobile, //值
+    function(result,info){  //回调方法
+        //result 验证结果 true/false
+        //info   返回提示信息
     }
 );
 ```
@@ -162,11 +162,11 @@ J.Utils.validator.checkMobile(
 
 ```javascript
 J.Common.regExpFun(
-    type,  *//参照表单单独验证type*
+    type,  //参照表单单独验证type
     {
         val:val,
-        callbackFun:callbackFun, *//参照表单单独验证的回调*
-        callbackFunBefore:callbackFunBefore  *//post/get请求数据验证*
+        callbackFun:callbackFun, //参照表单单独验证的回调
+        callbackFunBefore:callbackFunBefore  //post/get请求数据验证
     }
 );
 ```
