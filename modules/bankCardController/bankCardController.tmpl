@@ -1,0 +1,48 @@
+<%if(!isBindCard){%>
+<div class="card_box">
+	<p class="hint">请务必本人绑卡，请选择换开户银行卡</p>
+    <div class="ui_input_label">
+	    <label class="text">银行卡</label>
+	    <span class="tap sel" id="bankCardNa" data-action="bankCardNa">请选择银行</span>
+	</div>
+	<ul id="bankList" class="bank_list">
+		<li class="bank_item tap" data-action="changeBank" data-bank="ICBC">中国工商银行 单笔限额5万/每日限额5万</li>
+		<li class="bank_item tap" data-action="changeBank" data-bank="ABC">中国农业银行 单笔限额2万/每日限额2万</li>
+		<li class="bank_item tap" data-action="changeBank" data-bank="CCB">建设银行 单笔限额5千/每日限额1万</li>
+		<li class="bank_item tap" data-action="changeBank" data-bank="BOC">中国银行 单笔限额1万/每日限额1万</li>
+		<li class="bank_item tap" data-action="changeBank" data-bank="CEB">光大银行 单笔限额5万/每日限额5万</li>
+		<li class="bank_item tap" data-action="changeBank" data-bank="CIB">兴业银行 单笔限额5万/每日限额5万</li>
+		<li class="bank_item tap" data-action="changeBank" data-bank="SDBC">深圳发展银行 单笔限额5万/每日限额5万</li>
+	</ul>
+	<div class="ui_input_label g_mt10">
+	    <label class="text">卡号</label>
+	    <input type="text" class="tap" id="bankCardNu" data-action="bankCardNu" placeholder="请输入银行卡号"/>
+	</div>
+    <p class="ui_error" id="tipError">充值金额超过单笔金额</p>
+	<div class="operate">
+	    <span data-action="toBindCard" class="ui_btn ui_btn_blue tap">绑&nbsp;&nbsp;&nbsp;&nbsp;卡</span>
+	</div>
+</div>
+<%}else{%>
+<div class="card_box">
+    <div id="cardImg" class="card_img">
+        <span class="card_txt fl">****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;****&nbsp;&nbsp;&nbsp;</span>
+        <span id="cardNu" class="card_nu fl">5118</span>
+    	<span class="card_type"><%if(!isRechargeAgreement){%>非<%}%>&nbsp;快&nbsp;捷</span>
+    </div>
+    <%if(isRechargeAgreement){%>
+    <p class="change_card_hint tap" data-action="changeCardHint"><i></i>更换银行卡</p>
+    <%}else{%>  
+    <div class="card_protocol">
+        <%if(isSupportQuick){%>
+        <p class="card_protocol_text">您当前绑定的银行卡未开通快捷支付协议，无法在手机上进行充值，您只能使用此卡在个人电脑上使用网银进行充值</p>
+        <p class="card_protocol_btn tap" data-action="openQuick" >立即开通快捷支付</p>
+        <%}else{%> 
+        <p class="card_protocol_text">您当前绑定的银行卡不支持捷支付协议，无法在手机上进行充值，您只能使用此卡在个人电脑上使用网银进行充值</p>
+        <%}%>
+        <p class="card_protocol_text">如果您希望在手机上进行充值，请更换银行卡。换卡后，您将只能通过新的银行卡进行充值和体现</p>
+        <p class="card_protocol_btn tap" data-action="changeCard" >更换银行卡</p> 
+    </div>
+    <%}%>
+</div>
+<%}%>

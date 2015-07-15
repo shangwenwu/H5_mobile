@@ -1,0 +1,57 @@
+{
+	"status": 200,
+	"data": {
+		"results": [{
+			"id": "B23D509F-CBAF-4EC4-A28E-2F3DB26DD9BC",
+			"minAmount": 10000,
+			"name": "投资返现券",
+			"displayName": "新用户首次投资"
+		}, {
+			"id": "B1578935-6BF5-4750-8F1D-39F818CDEC7C",
+			"minAmount": 2,
+			"name": "test增值券",
+			"displayName": "test增值券"
+		}, {
+			"id": "02EAC1CB-2AEB-4B82-A581-223F14297C53",
+			"minAmount": 2,
+			"name": "test加息券",
+			"displayName": "test加息券"
+		}, {
+			"id": "538929A8-7B7A-4431-B572-0D31E1726CB6",
+			"minAmount": 2,
+			"name": "test加息券",
+			"displayName": "test加息券"
+		}, {
+			"id": "AFB9BE60-1CF5-4D8B-AD2B-A5A9ECBA1A36",
+			"minAmount": 2,
+			"name": "test加息券",
+			"displayName": "test加息券"
+		}, {
+			"id": "C58C4635-6F89-4C80-80BF-2888A2D52DE3",
+			"minAmount": 2,
+			"name": "test加息券",
+			"displayName": "test加息券"
+		}, {
+			"id": "58DDFF31-8201-4B82-9CF8-998ED34EECA3",
+			"minAmount": 0,
+			"name": "test增值券2",
+			"displayName": "test增值券2"
+		}, {
+			"id": "8D81670E-0C58-458B-8091-E1EF8B6F868F",
+			"minAmount": 0,
+			"name": "test增值券2",
+			"displayName": "test增值券2"
+		}, {
+			"id": "BD856F39-1738-4C2E-9161-88162550B0D8",
+			"minAmount": 0,
+			"name": "test增值券2",
+			"displayName": "test增值券2"
+		}, {
+			"id": "BFB671F9-E1D9-4094-899C-910537C948C6",
+			"minAmount": 0,
+			"name": "test增值券2",
+			"displayName": "test增值券2"
+		}],
+		"totalPage": 100
+	}
+}

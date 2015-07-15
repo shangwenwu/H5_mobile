@@ -1,0 +1,36 @@
+{
+	"status" : "200",
+	"message": "ok",
+	"data":{
+		"results":[
+			{
+			  	"dueDate": 12324234,
+			  	"amount": 112,
+			  	"amountPrincipal": 666,
+			  	"amountInterest": 12334,
+			  	"amountOutstanding": 0				
+			},
+			{
+			  	"dueDate": 12324234,
+			  	"amount": 112,
+			  	"amountPrincipal": 666,
+			  	"amountInterest": 12334,
+			  	"amountOutstanding": 0				
+			},
+			{
+			  	"dueDate": 12324234,
+			  	"amount": 112,
+			  	"amountPrincipal": 666,
+			  	"amountInterest": 12334,
+			  	"amountOutstanding": 0				
+			},
+			{
+			  	"dueDate": 12324234,
+			  	"amount": 112,
+			  	"amountPrincipal": 666,
+			  	"amountInterest": 12334,
+			  	"amountOutstanding": 0				
+			}
+		]
+	}
+}

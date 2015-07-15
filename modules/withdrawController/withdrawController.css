@@ -1,0 +1,13 @@
+.withdraw_module .bank_info{
+  line-height: 43px;
+}
+.withdraw_module .operate {
+  padding: 0 10px;
+}
+.withdraw_module .hint{
+  text-align: right;
+  color: #6d7bb2;
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 10px;
+}

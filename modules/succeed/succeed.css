@@ -1,0 +1,14 @@
+.succeedModule .succeedImg{ 
+	background: url(images/succeed.png) no-repeat; 
+	width: 60px; height: 60px; 
+	background-size:100%;  
+	margin: 40px auto 30px auto; 
+}
+
+.MobileIcon{ 
+	margin: 20px auto; 
+	width: 72px; 
+	height: 72px; 
+	background: url(images/mobileIcon.png) no-repeat; 
+	background-size:100%; 
+}

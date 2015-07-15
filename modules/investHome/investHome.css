@@ -1,0 +1,91 @@
+.invest_home_module .invest_table { width: 1200px; margin: 10px auto; font-size: 14px; font-weight: 400; text-align: center;}
+.invest_home_module .invest_table th{ background: #b5a16b; color: white; line-height: 36px;  }
+.invest_home_module .invest_table td{ background: white; color:#666; border-bottom:1px solid #ccc; line-height: 65px;}
+.invest_home_module .invest_table td a{ text-decoration: none; color: #b5a16b;}
+.invest_home_module .invest_table .golden{ color:#af985c;}
+.invest_home_module .invest_table td a.btn_gold{width: 120px; text-align: center; line-height: 35px; background: #242d4f; color: #fff; border: none; border-radius: 5px; display: inline-block; cursor: pointer;}
+.invest_home_module .invest_table td a.btn_gray{width: 120px; text-align: center; line-height: 35px; background: lightgrey; color: #b5a16b; border: none; border-radius: 5px; display: inline-block; cursor: inherit;}
+
+.invest_home_module .invest_table td a.rookieA{ display: inline-block; }
+.invest_home_module .invest_table td span.rookie{ margin-left: 5px; width: 25px; height: 25px; vertical-align: middle; background:url(images/rookie.png) no-repeat; display: inline-block;}
+.invest_home_module{
+	background: #ececec;
+}
+.invest_home_module .invest_item{
+	margin: 7px;
+  background: #fff;
+  border-radius: 2px;
+}
+.invest_home_module .invest_item .title{
+  font-size: 13px;
+  color: #00205c;
+  padding: 14px;
+  display: block;
+  border-bottom: 1px solid #ececec;
+  background: url(images/jiantou.png) no-repeat 98% 50%;
+  background-size: 9px 15px;
+
+}
+.invest_home_module .invest_item .info{
+margin: 14px;
+}
+.invest_home_module .invest_item .tabli{
+  width: 32%;
+  display: inline-block;
+}
+.invest_home_module .invest_item .hint{
+display: inline-block;
+  font-size: 11px;
+  color: #a5a4a4;
+  width: 100%;
+  font-style: normal;
+}
+.invest_home_module .invest_item .yield{
+  font-size: 26px;
+  color: #af985c;
+}
+.invest_home_module .invest_item i{
+color: #333;
+font-style: normal;
+}
+.invest_home_module .invest_item .deadline{
+
+}
+.invest_home_module .invest_item .money{
+
+}
+.invest_home_module .invest_item .btn{
+  padding: 0px 6px 12px;
+}
+.invest_home_module .invest_item .btn_gold,
+.invest_home_module .invest_item .btn_gray{
+  text-align: center;
+  display: block;
+  height: 35px;
+  background: #00205c;
+  line-height: 35px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 2px;
+}
+.invest_home_module .invest_item .btn_gray{
+background: #c5c5c5;
+}
+.invest_home_module .invest_item .btn_time{
+  border: 1px solid #00205c;
+  text-align: center;
+  display: block;
+  height: 33px;
+  line-height: 35px;
+  font-size: 13px;
+  border-radius: 2px;
+  color: #333;
+}
+.invest_home_module .invest_item .icon{
+  display: inline-block;
+  width: 20px;
+  height: 33px;
+  background: url(images/shijian.png) no-repeat 50%;
+  background-size: 20px 20px;
+  margin-right: 7px;
+}

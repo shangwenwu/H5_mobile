@@ -1,0 +1,19 @@
+{
+	"status":"200",
+	"message":"ok",
+	"data":{
+		"results":[
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"},
+			{"time":"2015-05-12","order":"0001208","withdrawMoney":"12.34","accountMoney":"11.2","state":"成功"}
+		],
+		"totalSize":"56"
+	}
+}

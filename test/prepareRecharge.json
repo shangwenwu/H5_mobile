@@ -1,0 +1,26 @@
+{
+    "status": "200", 
+    "message": "Success", 
+    "data": {
+        "param": {
+            "account_id": "02000000052034", 
+            "mer_date": "20150702", 
+            "sign_type": "RSA", 
+            "notify_url": "http://111.59.61.50/trade/rechargeResultBackNotify", 
+            "charset": "UTF-8", 
+            "order_id": "45113314852882368615", 
+            "version": "1.0", 
+            "sign": "cIvlXRwuyQ9ElQa4iGX7dBxJcHZWRp34QZwHXK1x6zEfdse9NEBCl3WARsyRpDDIGhkss2gcO8PYhpJrKmhmZHqEqqBcoh6d19C8cWHiuMAWYpd57C0UYIWCcwnGOQZEITVIa4i9xVLDxYOUE8mFRBOyLgKgoBDRsNKwzK8kOwk=", 
+            "amount": "200", 
+            "gate_id": "ICBC", 
+            "mer_id": "7050074", 
+            "pay_type": "B2CDEBITBANK", 
+            "service": "mer_recharge_person", 
+            "user_id": "UB201506191603520000000000019885", 
+            "res_format": "HTML", 
+            "ret_url": "http://111.59.61.50/trade/rechargeResultFrontNotify"
+        }, 
+        "orderId": "45113314852882368615", 
+        "url": "http://114.113.159.203:9200/spay/pay/payservice.do"
+    }
+}

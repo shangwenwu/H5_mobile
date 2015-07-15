@@ -1,0 +1,95 @@
+.coupon_page_module .hint{
+  padding: 13px 12px;
+  text-align: right;
+  color: #6d7bb2;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.coupon_page_module .hint i{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(images/why.png) no-repeat center;
+  background-size: 12px 12px;
+  margin: -2px 5px;
+}
+.coupon_page_module .list {
+  padding: 0px 12px;
+}
+.coupon_page_module .list .item {
+  float: left;
+  margin-bottom: 12px;
+  background-color: #e8e8e8;
+  color: #666666;
+  width: 100%;
+}
+.coupon_page_module .list .item p.use {
+  margin-top: 25px;
+}
+.coupon_page_module .list .item_left {
+  float: left;
+  width: 65%;
+  border-right: 3px #FFFFFF dotted;
+}
+.coupon_page_module .list .item_left_info {
+  padding: 20px 18px;
+  display: inline-block;
+}
+.coupon_page_module .list .item_left_info p.title {
+  font-size: 18px;
+}
+.coupon_page_module .list .item_left_info p.time {
+  font-size: 13px;
+}
+.coupon_page_module .list .item_left_info p.detail {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.coupon_page_module .list .item_right {
+  float: left;
+  width: 33%;
+  padding-top: 45px;
+  text-align: center;
+}
+.coupon_page_module .list .item_right p.price {
+  line-height: 1;
+}
+.coupon_page_module .list .item_right p.price .price_lable {
+  font-size: 12px;
+  vertical-align: text-bottom;
+  line-height: 16px;
+}
+.coupon_page_module .list .item_right p.price .price_num {
+  font-size: 30px;
+  vertical-align: text-bottom;
+}
+
+
+.coupon_page_module .list .item_INTEREST {
+  background-color: #F5CF3E;
+  color: #FFFFFF;
+}
+.coupon_page_module .list .item_PRINCIPAL {
+  background-color: #555D82;
+  color: #FFFFFF;
+}
+.coupon_page_module .list .item_REBATE {
+  background-color: #E9714F;
+  color: #FFFFFF;
+}
+.coupon_page_module .list .item_CASH {
+  background-color: #92CBE6;
+  color: #FFFFFF;
+}
+.coupon_page_module .list .item_CASH .item_right {
+  padding-top: 45px;
+}
+
+
+.coupon_page_module .list .item_USED,
+.coupon_page_module .list .item_EXPIRED,
+.coupon_page_module .list .item_REDEEMED {
+  background-color: #e8e8e8;
+  color: #666666;
+}
+

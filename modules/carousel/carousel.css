@@ -1,0 +1,40 @@
+.carousel_module{
+width: 100%;
+overflow: hidden;
+}
+.carousel_module .pic{
+height: 146px;
+position: relative;
+left: 0px;
+}
+.carousel_module .pic .pic_item{
+height: 146px;
+display: inline-block;
+position: absolute;
+background-repeat:  no-repeat;
+background-position: center;
+background-size: 100% 146px;
+}
+.carousel_module .pic .pic_0{
+z-index: 10;	
+}
+.carousel_module .point{
+text-align: center;
+margin-top: -25px;
+position: relative;
+z-index: 20;
+height: 25px;
+}
+.carousel_module .point .point_item{
+display: inline-block;
+width: 6px;
+height: 6px;
+margin: 5px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+background: #bcbcbc;
+}
+.carousel_module .point .point_item.active{
+background: #0392fd;
+}

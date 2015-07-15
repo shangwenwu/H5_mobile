@@ -1,0 +1,15 @@
+<div class="ui_input_label g_mt10">
+    <label class="icon"><em class="ui_icon ui_icon_bank ui_icon_bank_<%- bankCode %>"></em></label>
+    <div class="bank_info">
+        <p class="type"><%- bankName %>（<%- last4BankCardNo %>）</p>
+    </div>
+</div>
+<div class="ui_input_label g_mt10">
+    <label class="text">充值金额</label>
+    <input type="text" class="tap" id="withdrawValue" data-action="withdrawValue" placeholder="可提金额￥<%-amount%>"/>
+</div>
+<p class="ui_error" id="tipError">充值金额超过单笔金额</p>
+<div class="operate">
+    <span data-action="toRecharge" class="ui_btn ui_btn_blue tap">提&nbsp;&nbsp;&nbsp;&nbsp;交</span>
+</div>
+<p class="hint tap" data-action="hint">提现说明</p>

@@ -1,0 +1,32 @@
+<% if (list.length > 0) { %>
+<ul class="list_box clearfix">
+    <% $.each(list, function(index, item) { %>
+        <li class="item item_<%- item.type %> item_<%- item.status %>">
+            <div class="item_left">
+                <div class="item_left_info">
+                    <p class="title ellipsis">投资满<%- formatPrice(item.minAmount) %>元可用</p>
+                    <% if (item.timeEnd === null) { %>
+                    <p class="time ellipsis">到期时间：永不过期</p>
+                    <% } else { %>
+                    <p class="time ellipsis">到期时间：<%- formatTime(item.timeEnd, "Y-M-D") %></p>
+                    <% } %>
+                    <% if (item.type === "INTEREST") { %>
+                    <p class="detail">加息券</p>
+                    <% } else if (item.type === "PRINCIPAL") { %>
+                    <p class="detail">增值券</p>
+                    <% } else if (item.type === "REBATE") { %>
+                    <p class="detail">抵扣券</p>
+                    <% } else if (item.type === "CASH") { %>
+                    <p class="detail">现金券</p>
+                    <% } %>
+                </div>
+            </div>
+            <div class="item_right">
+                <p class="price"><span class="price_lable">￥</span><span class="price_num"><%- formatPrice(item.price) %></span></p>
+            </div>
+        </li>
+    <% }); %>
+</ul>
+<% } else { %>
+<div class="no-data">没有数据</div>
+<% } %>

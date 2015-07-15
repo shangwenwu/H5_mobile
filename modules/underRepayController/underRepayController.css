@@ -1,0 +1,20 @@
+.underRepay_page_module {
+    margin: 0px 5px;
+}
+.underRepay_page_module table {
+    width: 100%;
+}
+.underRepay_page_module table th {
+    height: 35px;
+    background-color: #ecf0f1;
+    font-size: 14px;
+    font-weight: normal;
+    color: #0f1f39;
+}
+.underRepay_page_module table td {
+    height: 50px;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d2d3;
+    font-size: 12px;
+}

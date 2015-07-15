@@ -1,0 +1,19 @@
+{
+	"status":"200",
+	"message":"ok",
+	"data":{
+		"results":[
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"},
+			{"time":"2015-05-12","number":"0001208","rechargeMoney":"12.34","fundChannel":"浦发","note":"成功"}
+		],
+		"totalSize":"72"
+	}
+}

@@ -1,0 +1,15 @@
+<div class="ui_input_label g_mt10">
+    <label class="icon"><em class="ui_icon ui_icon_bank ui_icon_bank_<%- bankCode %>"></em></label>
+    <div class="bank_info">
+        <p class="type"><%- bankName %>（<%- last4BankCardNo %>）</p>
+        <p class="money">单笔限额50000元，单日限额50000元</p>
+    </div>
+</div>
+<div class="ui_input_label g_mt10">
+    <label class="text">充值金额</label>
+    <input type="text" class="tap" id="rechargeValue" data-action="rechargeValue" placeholder="请输入金额"/>
+</div>
+<p class="ui_error" id="tipError">充值金额超过单笔金额</p>
+<div class="operate">
+    <span data-action="toRecharge" class="ui_btn ui_btn_blue tap">提&nbsp;&nbsp;&nbsp;&nbsp;交</span>
+</div>

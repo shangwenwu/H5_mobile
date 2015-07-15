@@ -1,0 +1,119 @@
+{
+  "status": "200",
+  "message": "Success",
+  "data": {
+	"results": [
+	  {
+		"minAmount": 10000,
+		"timeEnd": 1435334400000,
+		"timeStart": null,
+		"price": 50,
+		"status": "PLACED",
+		"description": "投资10000元以上，可选用。",
+		"name": "投资返现券",
+		"displayName": "新用户首次投资",
+		"type": "REBATE"
+	  },
+	  {
+		"minAmount": 2,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 1,
+		"status": "PLACED",
+		"description": "增值券奖励活动",
+		"name": "test增值券",
+		"displayName": "test增值券",
+		"type": "REBATE"
+	  },
+	  {
+		"minAmount": 200,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 1,
+		"status": "REDEEMED",
+		"description": "",
+		"name": "满标",
+		"displayName": "满标红包",
+		"type": "CASH"
+	  },
+	  {
+		"minAmount": 2,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 1,
+		"status": "PLACED",
+		"description": "可在标的年化收益率基础上加息1%",
+		"name": "test加息券",
+		"displayName": "test加息券",
+		"type": "INTEREST"
+	  },
+	  {
+		"minAmount": 2,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 1,
+		"status": "PLACED",
+		"description": "可在标的年化收益率基础上加息1%",
+		"name": "test加息券",
+		"displayName": "test加息券",
+		"type": "INTEREST"
+	  },
+	  {
+		"minAmount": 2,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 1,
+		"status": "PLACED",
+		"description": "可在标的年化收益率基础上加息1%",
+		"name": "test加息券",
+		"displayName": "test加息券",
+		"type": "INTEREST"
+	  },
+	  {
+		"minAmount": 2,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 1,
+		"status": "PLACED",
+		"description": "可在标的年化收益率基础上加息1%",
+		"name": "test加息券",
+		"displayName": "test加息券",
+		"type": "INTEREST"
+	  },
+	  {
+		"minAmount": 0,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 10,
+		"status": "PLACED",
+		"description": "体验金10元",
+		"name": "test增值券2",
+		"displayName": "test增值券2",
+		"type": "PRINCIPAL"
+	  },
+	  {
+		"minAmount": 0,
+		"timeEnd": null,
+		"timeStart": null,
+		"price": 10,
+		"status": "PLACED",
+		"description": "体验金10元",
+		"name": "test增值券2",
+		"displayName": "test增值券2",
+		"type": "PRINCIPAL"
+	  },
+	  {
+		"minAmount": 0,
+		"timeEnd": 1435334400000,
+		"timeStart": null,
+		"price": 10,
+		"status": "EXPIRED",
+		"description": "体验金10元",
+		"name": "test增值券2",
+		"displayName": "test增值券2",
+		"type": "PRINCIPAL"
+	  }
+	],
+	"totalSize": 56
+  }
+}

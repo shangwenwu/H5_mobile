@@ -1,0 +1,16 @@
+.ui_loading {
+    display: none;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.ui_loading .img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: url(images/loading.gif);
+    background-size: 24px 24px;
+}

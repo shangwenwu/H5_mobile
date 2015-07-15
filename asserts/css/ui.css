@@ -1,0 +1,214 @@
+
+.ui_btn {
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.ui_btn_blue {
+    background-color: #20284C;
+    color: #FFFFFF;
+}
+
+.ui_btn_white {
+    background-color: #FFFFFF;
+    border: 1px #2F2E36 solid;
+    color: #2C2E47;
+}
+
+
+.ui_btn_blue:active,
+.ui_btn_blue:focus,
+.ui_btn_white:active,
+.ui_btn_white:focus {
+    background-color: #ABBAD9;
+}
+
+
+.ui_btn_orange {
+	background-color: #AC9866;
+	color: #FFFFFF;
+}
+
+
+
+.ui_btn_gray {
+    background-color: #BBBBBB;
+    color: #FFFFFF;
+}
+
+.ui_tip {
+
+}
+/*.ui_error_wrapper {
+	height: 16px;
+	
+}*/
+.ui_error {
+	position: relative;
+	display: inline-block;
+	visibility: hidden;
+	padding: 0px 25px;
+	background-color: #f2c8c9;
+	height: 16px;
+	margin: 12px 0px;
+	border-radius: 8px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #c90909;
+	overflow: hidden;
+}
+.ui_error:before {
+	position: absolute;
+	width: 14px;
+  	height: 14px;
+	left: 2px;
+	top: 1px;
+	background: url(../images/error.png) no-repeat;
+	background-size: 14px 14px;
+	content: '';
+}
+.ul_tab {
+    display: -moz-box; 
+    display: -webkit-box; 
+    display: box;
+	box-orient: horizontal;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border: solid #d3d3d3;
+	border-width: 1px 0px 1px 0px;
+	font-size: 14px;
+}
+.ul_tab li {
+    -moz-box-flex: 1; 
+    -webkit-box-flex: 1; 
+    box-flex: 1;
+}
+.ul_tab li a {
+	/*width: 100%;*/
+	/*display: block;*/
+	color: #494f68;
+}
+.ul_tab li:nth-of-type(2) {
+	border: solid #d3d3d3;
+	border-width: 0px 1px 0px 1px;
+}
+.ul_tab li.active {
+	background-color: #20294b;
+}
+.ul_tab li.active a {
+	color: #fff;
+}
+
+
+/*.ui_loading {
+  	display: none;
+  	line-height: 30px;
+  	height: 30px;
+  	text-align: center;
+}
+
+.ui_loading .img {
+  	width: 24px;
+  	height: 24px;
+  	display: inline-block;
+  	margin-right: 10px;
+  	vertical-align: middle;
+  	background: url(../images/loading.gif);
+  	background-size: 24px 24px;
+}*/
+
+/* input类型 */
+.ui_input_label {
+	display:-webkit-flex;
+	display: flex;
+	border-top: 1px solid #e4e3e3;
+	border-bottom: 1px solid #e4e3e3;
+	padding: 0 5px 0 20px;
+	background-color: #FFFFFF;
+}
+
+.ui_input_label label {
+	display: inline-block;
+	width: 90px;
+	padding: 3px 0;
+	line-height: 1;
+}
+
+.ui_input_label label {
+	display: inline-block;
+	width: 80px;
+	padding: 3px 0;
+}
+
+.ui_input_label label.icon {
+	line-height: 1;
+}
+
+.ui_input_label label.text {
+	line-height: 32px;
+}
+
+.ui_input_label input[type=text] {
+	display: block;
+	-webkit-flex: 1;
+	flex: 1;
+	border: none;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 5px;
+	font-size: 14px;
+}
+
+.ui_input_label input[type=text]:active,
+.ui_input_label input[type=text]:focus {
+	outline: none;
+}
+
+/* 银行卡的图标 */
+.ui_icon {
+	display: inline-block;
+}
+
+.ui_icon_bank {
+	width: 32px;
+	height: 32px;
+}
+
+
+.ui_icon_bank_ICBC {
+	background: url(../images/icon-bank/CICBC.png);
+	background-size: 32px 32px;
+}
+.ui_icon_bank_ABC{
+	background: url(../images/icon-bank/ABC.png);
+	background-size: 32px 32px;
+}
+.ui_icon_bank_CCB {
+	background: url(../images/icon-bank/CCB.png);
+	background-size: 32px 32px;
+}
+.ui_icon_bank_BOC {
+	background: url(../images/icon-bank/BOC.png);
+	background-size: 32px 32px;
+}
+.ui_icon_bank_CEB {
+	background: url(../images/icon-bank/CEB.png);
+	background-size: 22px 50px;
+}
+.ui_icon_bank_CIB {
+	background: url(../images/icon-bank/CIB.png);
+	background-size: 38px 25px;
+}
+.ui_icon_bank_SDBC {
+	background: url(../images/icon-bank/SDBC.png);
+	background-size: 32px 32px;
+}
+.ui_icon_bank_CMB {
+	background: url(../images/icon-bank/CMB.png);
+	background-size: 32px 32px;
+}

@@ -1,0 +1,10 @@
+{
+	"status" : "200",
+	"message": "ok",
+	"data":{
+		"result":true,
+		"account":"123456789012345678901234",
+		"accountName":"0987654321",
+		"mobile":"15110298473"
+	}
+}

@@ -1,0 +1,86 @@
+<section class="base_info">
+    <div class="info_income">
+        <img src="<%= topImg %>" width="100%" alt="账户头部"/>
+        <div class="username g_tac"><%- username %></div>
+        <div class="total">
+            <p class="num g_tac"><%- totalEarnings %></p>
+            <p class="text g_tac">累计收益（元）</p>
+        </div>
+    </div>
+    <div class="info_detail">
+        <ul class="detail_list">
+            <li class="item">
+                <p class="num"><%- availableBalance %></p>
+                <p class="text">可用余额（元）</p>
+            </li>
+            <li class="item">
+                <p class="num"><%- dueinInterest %></p>
+                <p class="text">待收本息（元）</p>
+            </li>
+            <li class="item">
+                <p class="num"><%- totalAmount %></p>
+                <p class="text">总资产（元）</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="operate">
+    <div class="operate_box">
+        <span data-action="recharge" class="ui_btn ui_btn_blue operate_item operate_item_recharge tap">
+            <em class="icon icon_recharge"></em>
+            <span class="text">充值</span>
+        </span>
+        <span data-action="withdraw" class="ui_btn ui_btn_orange operate_item operate_withdraw tap">
+            <em class="icon icon_withdraw"></em>
+            <span class="text">提现</span>
+        </span>
+    </div>
+</section>
+<%if(!agreement){%>
+<section class="item_sxy tap" data-action="protocol">
+    <em class="icon icon_sxy"></em>
+    <span class="text">开通无密协议</span>
+</section>
+<%}%>
+<section class="more_info">
+    <ul class="list">
+        <li class="item">
+            <a href="#account/project" class="item_link">
+                <em class="icon icon_more"></em>
+                <em class="icon icon_my"></em>
+                <span class="text">我的投资</span>
+            </a>
+        </li>
+        <li class="item">
+            <a href="#account/fundsRecord" class="item_link">
+                <em class="icon icon_more"></em>
+                <em class="icon icon_zijin"></em>
+                <span class="text">资金记录</span>
+            </a>
+        </li>
+        <li class="item">
+            <a href="#account/underRepay" class="item_link">
+                <em class="icon icon_more"></em>
+                <em class="icon icon_daishou"></em>
+                <span class="text">待还款</span>
+            </a>
+        </li>
+        <li class="item tap" data-action="bankCard">
+            <a href="javascript:void(0);" class="item_link">
+                <em class="icon icon_more"></em>
+                <em class="icon icon_yinhangka"></em>
+                <span class="text">银行卡</span>
+            </a>
+        </li>
+        <li class="item">
+            <a href="#account/coupon" class="item_link">
+                <em class="icon icon_more"></em>
+                <em class="icon icon_hongbao"></em>
+                <span class="text">我的红包</span>
+            </a>
+        </li>
+    </ul>
+</section>
+<section class="logout">
+    <a href="javascript:void(0);" class="logout_btn ui_btn ui_btn_white tap" data-action="logout">退出账户</a>
+</section>

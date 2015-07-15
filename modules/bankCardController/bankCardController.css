@@ -1,0 +1,186 @@
+
+.bank_card_module .bank_info{
+  line-height: 43px;
+}
+.bank_card_module .operate {
+  padding: 0 10px;
+}
+.bank_card_module .hint{
+  font-size: 12px;
+  padding-left: 20px;
+  line-height: 35px;
+  height: 35px;
+}
+.bank_card_module .sel{
+  display: block;
+  -webkit-flex: 1;
+  flex: 1;
+  border: none;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 5px;
+  font-size: 14px;
+}
+
+.bank_card_module .card_img{
+  width: 290px;
+  height: 118px;
+  margin: 10px auto;
+  text-align:center;
+}
+.bank_card_module .card_img.ABC{
+  background: url(images/abc.png) no-repeat center;
+}
+.bank_card_module .card_img.BOC{
+  background: url(images/boc.png) no-repeat center;
+}
+.bank_card_module .card_img.CCB{
+  background: url(images/ccb.png) no-repeat center;
+}
+.bank_card_module .card_img.CEB{
+  background: url(images/ceb.png) no-repeat center;
+}
+.bank_card_module .card_img.CIB{
+  background: url(images/cib.png) no-repeat center;
+}
+.bank_card_module .card_img.CMB{
+  background: url(images/cmb.png) no-repeat center;
+}
+.bank_card_module .card_img.CMBC{
+  background: url(images/cmbc.png) no-repeat center;
+}
+.bank_card_module .card_img.ICBC{
+  background: url(images/icbc.png) no-repeat center;
+}
+.bank_card_module .card_img.PSBC{
+  background: url(images/psbc.png) no-repeat center;
+}
+.bank_card_module .card_img.SDBC{
+  background: url(images/sdbc.png) no-repeat center;
+}
+.bank_card_module .card_txt,
+.bank_card_module .card_nu{
+  color: #fff;
+  font-size: 26px;
+  margin-top: 40px;
+  height:40px;
+  line-height: 56px;
+}
+.bank_card_module .card_nu{
+  line-height: 40px;
+}
+.bank_card_module .card_type{
+  background: #20284C;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 12px;
+  float: right;
+  margin: -70px -2px 0 0;
+}
+.bank_card_module .change_card_hint{
+  padding: 13px 12px;
+  text-align: right;
+  color: #6d7bb2;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.bank_card_module .change_card_hint i{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(images/why.png) no-repeat center;
+  background-size: 12px 12px;
+  margin: -2px 5px;
+}
+.bank_card_module .card_protocol{
+  background: #fff;
+  padding: 25px 15px;
+}
+.bank_card_module .card_protocol_text{
+  font-size: 13px;
+  line-height: 20px;
+  color: #5c5c5c;
+}
+.bank_card_module .card_protocol_btn{
+  margin: 15px 0;
+  text-align: center;
+  color: #20284C;
+  border: 1px solid #20284C;
+  border-radius: 3px;
+  padding: 10px 0;
+}
+.bank_card_module .bank_list{
+  font-size: 13px;
+  line-height: 36px;
+  color: #9ea9cd;
+}
+.bank_card_module .bank_item{
+  text-align: center;
+  border-bottom: 1px solid #e4e3e3;
+  display: none;
+}
+.bank_card_module .bank_item.down{
+background-color: #20284C;
+color: #FFFFFF;
+}
+.bank_card_module .bank_item.show{
+height: 37px;
+display: block;
+animation:showlist .2s;
+-moz-animation:showlist .2s; /* Firefox */
+-webkit-animation:showlist .2s; /* Safari and Chrome */
+-o-animation:showlist .2s; /* Opera */
+}
+.bank_card_module .bank_item.hide{
+display: none;
+animation:hidelist .2s;
+-moz-animation:hidelist .2s; /* Firefox */
+-webkit-animation:hidelist .2s; /* Safari and Chrome */
+-o-animation:hidelist .2s; /* Opera */
+}
+@keyframes showlist
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+
+@-moz-keyframes showlist /* Firefox */
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+
+@-webkit-keyframes showlist /* Safari and Chrome */
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+
+@-o-keyframes showlist /* Opera */
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+@keyframes hidelist
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+
+@-moz-keyframes hidelist /* Firefox */
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+
+@-webkit-keyframes hidelist /* Safari and Chrome */
+{
+from {height: 0px;}
+to {height: 37px;}
+}
+
+@-o-keyframes hidelist /* Opera */
+{
+from {height: 0px;}
+to {height: 37px;}
+}

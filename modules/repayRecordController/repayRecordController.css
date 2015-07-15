@@ -1,0 +1,20 @@
+.repayRecord_page_module {
+	margin: 0px 5px;
+}
+.repayRecord_page_module table {
+	width: 100%;
+}
+.repayRecord_page_module table th {
+	height: 40px;
+	background-color: #8a90a0;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+}
+.repayRecord_page_module table td {
+	height: 40px;
+	text-align: center;
+	background-color: #fff;
+	border-bottom: 1px solid #d4d2d3;
+	font-size: 12px;
+}

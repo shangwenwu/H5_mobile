@@ -1,0 +1,154 @@
+.pay_page_module {
+    /*background-color: #fff;*/
+    position: relative;
+}
+.pay_page_module .to_info {
+    height: 35px;
+    padding: 0px 12px;
+    line-height: 35px;
+    border-bottom: 1px solid #d0d0d0;
+    background-color: #fff;
+    margin-top: 7px;
+}
+.pay_page_module .to_info .title {
+    font-size: 16px;
+    color: #242c50;
+}
+.pay_page_module .to_info .text {
+    font-size: 12px;
+    color: #333;
+    float: right;
+}
+.pay_page_module .available_amount {
+    height: 32px;
+    padding-left: 12px;
+    line-height: 32px;
+    font-size: 14px;
+}
+.pay_page_module .available_amount .recharge {
+    margin-right: 12px;
+    float: right;
+}
+.pay_page_module .to_invest {
+    width: 100%;
+    margin-top: 60px;
+    display: block;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+
+.pay_page_module .detail_info {
+    padding: 10px 12px 20px;
+    height: 46px;
+    /*border: solid #d0d0d0;*/
+    /*border-width: 0px 1px 0px 1px;*/
+    background-color: #fff;
+}
+.pay_page_module .item {
+    padding: 0px 12px;
+    background-color: #fff;
+    height: 44px;
+    line-height: 44px;
+}
+.pay_page_module .item .label {
+    width: 152px;
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+}
+.pay_page_module .item .invest_input {
+/*    display: block;
+    margin-left: 152px;*/
+    min-width: 140px;
+    width: 45%;
+    border: none;
+    padding: 0px;
+    margin: 8px 0px;
+    height:24px;
+    font-size: 12px;
+    outline: none;
+}
+.pay_page_module .item .choose_coupon {
+    font-size: 12px;
+    color: #00205c;
+    display: block;
+    margin-left: 152px;
+    position: relative;
+}
+.pay_page_module .item .choose_coupon:before {
+    width: 6px;
+    height: 12px;
+    background: url(images/jiantou02.png);
+    background-size: 6px 11px;
+    position: absolute;
+    top: 17px;
+    right: 0px;
+    content: '';
+}
+.pay_page_module .detail_info .rate {
+    width: 40%;
+    display: inline-block;
+}
+.pay_page_module .detail_info .rate .number {
+    color: #a8915b;
+    font-size: 20px;
+    line-height: 25px;
+}
+.pay_page_module .detail_info .amount {
+    width: 40%;
+    display: inline-block;   
+}
+.pay_page_module .detail_info .duretion {
+    float: right;
+}
+.pay_page_module .detail_info .duretion .time,
+.project_page_module #dataWrapper .detail_info .amount .number {
+    line-height: 25px;
+    color: #333;
+}
+
+.pay_page_module .detail_info .text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #a4a4a4;
+}
+
+.pay_page_module .confirm_invest {
+    display: block;
+    margin: 12px 12px 0px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.pay_page_module .invest_success_wrapper {
+    position: relative;
+    margin-top: 7px;
+    padding: 0px 12px;
+    background-color: #fff;
+    line-height: 35px;
+    font-size: 14px;
+    color: #666;
+}
+.pay_page_module .invest_success_wrapper .number {
+    margin-left: 10px;
+    color: #00205b;
+}
+.pay_page_module .invest_success_wrapper .time {
+    margin-left: 10px;
+}
+.pay_page_module .invest_success_wrapper:after {
+    width: 119px;
+    height: 101px;
+    background: url(images/success.png);
+    background-size: 119px 101px;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    content: '';
+}
+.pay_page_module .ui_error {
+    margin-left: 8px;
+}

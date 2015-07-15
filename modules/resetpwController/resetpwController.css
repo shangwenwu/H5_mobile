@@ -1,0 +1,12 @@
+.resetpw_module{  margin: 0 12px;}
+.resetpw_module #sms{ width: 130px; margin-left:10px; line-height: 30px; height: 37px;}
+.resetpw_module input{ display: block; height: 16px;  padding:10px 15px; border:1px solid #e4e3e3;   border-radius: 3px; }
+.resetpw_module .c6{color:#666;}
+.resetpw_module a.link{ color:#6d7bb2; text-decoration: underline;}
+.resetpw_module #verify{position: relative;}
+.resetpw_module #eye{ position: absolute;top:13px; right: 10px; display: block; width: 22px; height: 11px; background-size: 22px 11px;}
+.resetpw_module .closeEye{background: url(images/close.png);}
+.resetpw_module .openEye{background: url(images/open.png);}
+
+.resetpw_module .succeedImg{ background: url(images/succeed.png); width: 60px; height: 60px; background-size:100%;  margin: 40px auto 30px auto; }
+.MobileIcon{ margin: 20px auto; width: 72px; height: 72px; background: url(images/mobileIcon.png) no-repeat; background-size:100%; }

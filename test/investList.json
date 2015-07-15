@@ -1,0 +1,28 @@
+{
+	"status" : "200",
+	"message": "ok",
+	"data":{
+		"results":[
+			{
+				"submitTime": "2015-06-18",
+  				"userLoginName": "xy*****",
+  				"amount": "50000"			
+			},
+			{
+				"submitTime": "2015-06-18",
+  				"userLoginName": "xy*****",
+  				"amount": "50000"				
+			},
+			{
+				"submitTime": "2015-06-18",
+  				"userLoginName": "xy*****",
+  				"amount": "50000"				
+			},
+			{
+				"submitTime": "2015-06-18",
+  				"userLoginName": "xy*****",
+  				"amount": "50000"			
+			}
+		]
+	}
+}

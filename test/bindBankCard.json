@@ -1,0 +1,24 @@
+{
+  "status": "200",
+  "message": "Success",
+  "data": {
+	"param": {
+	  "mer_date": "20150702",
+	  "sign_type": "RSA",
+	  "notify_url": "http://111.59.61.50/bindCardResultBackNotify",
+	  "charset": "UTF-8",
+	  "order_id": "95764477274879077257",
+	  "card_id": "Q5Z/9E2XqRtb8pHx9Lpj9vOUE0OzSq+otKQFunav3k5kMA5+LXGPRoOkybmXIpKP4nXmgNDW+vGWHc/aSq1NOs70i9wAPw+k6DhoWgtLHf1IB+iWY8KwGIQOlZWmLIF4L+N5GZlPaBup6I2J9rBZbuxAfYywzQ/p/ucUg3TWjKw=",
+	  "version": "1.0",
+	  "is_open_fastPayment": "0",
+	  "sign": "IlKfN+nPiPaZH1Q1dUotuaR6jDmU70Rafk8/nGceAAprgKX0IvnFjvSgMHq4SVSqw2KlrOPQZnmWFjKPf92oGaXePiNT7NdTuPOjxCGwn4iqPPzFIT9eGzX1jVui/lWtYv9LaA44sdHY5aZqwH987eeeRQii6T+sf01+EUYGGiw=",
+	  "identity_type": "IDENTITY_CARD",
+	  "mer_id": "7050074",
+	  "service": "mer_bind_card",
+	  "user_id": "UB201506191603520000000000019885",
+	  "res_format": "HTML",
+	  "ret_url": "http://111.59.61.50/bindCardResultFrontNotify"
+	},
+	"url": "http://114.113.159.203:9200/spay/pay/payservice.do"
+  }
+}

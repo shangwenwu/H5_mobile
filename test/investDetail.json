@@ -1,0 +1,28 @@
+{
+	"status" : "200",
+	"message": "ok",
+	"data": {
+		"title": "测试",
+		"status": "SCHEDULED",
+		"rate": 9,
+		"fduration": 6,
+		"fdurunit": "月",
+		"amount": 2000,
+		"aUnit": "万",
+		"profitRate": 0.0001,
+		"method": "一次性还本付息",
+		"balance":27000,
+		"min": 100,
+		"stepBase": 1000,
+		"availableAmount": 1000,
+		"serverTime": 1435000288902,
+		"startTime": 1435000289902,
+		"endTime": 1435030288902,
+		"basicInfo": "本产品系九鼎投资旗下互联网金融平台九信金融推",
+		"safeInfo": "借款人提供足额新三板挂牌企业股",
+		"totalInterest": 22222,
+		"originalAmount": 500000,
+		"lastRepaymentsDate": "2015-09-11",
+		"rookie": true
+	}
+}

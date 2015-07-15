@@ -1,0 +1,132 @@
+.investDetail_page_module {
+    background-color: #fff;
+    position: relative;
+}
+.investDetail_page_module .to_info {
+    height: 35px;
+    padding: 0px 16px;
+    line-height: 35px;
+    border: 1px solid #d0d0d0;
+}
+.investDetail_page_module .to_info .title {
+    font-size: 16px;
+    color: #242c50;
+}
+.investDetail_page_module .to_info .text {
+    font-size: 12px;
+    color: #333;
+    float: right;
+}
+.investDetail_page_module .item {
+    height: 42px;
+    line-height: 42px;
+    padding: 0px 16px;
+    border: solid #d0d0d0;
+    border-width: 0px 1px 1px 1px;
+    font-size: 14px;
+}
+.investDetail_page_module .item .label {
+    float: left;
+    color: #666;
+}
+.investDetail_page_module .item .value {
+    float: right;
+    color: #333;
+}
+.investDetail_page_module .basic_info,
+.investDetail_page_module .safe_info {
+    position: relative;
+    padding: 0px 16px;
+    color: #666;
+}
+.investDetail_page_module .basic_info .title,
+.investDetail_page_module .safe_info .title {
+    font-size: 14px;
+    line-height: 40px;
+}
+.investDetail_page_module .basic_info .text,
+.investDetail_page_module .safe_info .text {
+    font-size: 12px;
+    line-height: 22px;
+}
+.investDetail_page_module .basic_info .agreement {
+    position: absolute;
+    top: 0px;
+    line-height: 40px;
+    right: 16px;
+    color: #9ea9cd;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.investDetail_page_module .to_invest {
+    width: 100%;
+    /*margin-top: 30px;*/
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+}
+.investDetail_page_module .waiting_time {
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    color: #242c50;
+    border-top: 1px solid #666;
+    /*margin-top: 30px;*/
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.investDetail_page_module .detail_info {
+    padding: 10px 8px 20px;
+    height: 46px;
+    border: solid #d0d0d0;
+    border-width: 0px 1px 1px 1px;
+}
+.investDetail_page_module .detail_info .rate {
+    width: 40%;
+    display: inline-block;
+}
+.investDetail_page_module .detail_info .rate .number {
+    color: #a8915b;
+    font-size: 20px;
+    line-height: 25px;
+}
+.investDetail_page_module .detail_info .amount {
+    width: 40%;
+    display: inline-block;   
+}
+.investDetail_page_module .detail_info .duretion {
+    float: right;
+}
+.investDetail_page_module .detail_info .duretion .time,
+.project_page_module #dataWrapper .detail_info .amount .number {
+    line-height: 25px;
+    color: #333;
+}
+
+.investDetail_page_module .detail_info .text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #a4a4a4;
+}
+.investDetail_page_module .status_icon {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    top: 120px;
+    right: 60px;
+    background-size: 105px 105px;
+}
+.investDetail_page_module .status_icon.full {
+    background-image: url(images/full.png);
+}
+.investDetail_page_module .status_icon.finished {
+    background-image: url(images/finished.png);
+}
+.investDetail_page_module .status_icon.repaying {
+    background-image: url(images/repaying.png);
+}

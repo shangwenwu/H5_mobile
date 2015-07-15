@@ -1,0 +1,30 @@
+<div class="invest_item">
+	<p class="title tap" data-href="#investDetail/id=<%- id%>"><%- title %></p>
+	<p class="info">
+		<span class="tabli">
+            <i class="yield"><%- yield %></i>
+            <em class="hint">年化收益率</em>
+		</span>
+		<span class="tabli tac">
+            <i class="money"><%- money %></i>
+            <em class="hint">剩余金额</em>
+		</span>
+		<span class="tabli tar">
+            <i class="deadline"><%- deadline %></i>
+            <em class="hint">期限</em>
+		</span>
+	</p>
+	<p class="btn">
+        <%if(status == 'OPENED'){%>
+            <a data-id="<%-id%>" class="btn_gold tap" data-action="invest" >立即投资</a>
+        <%}else if(status == 'SCHEDULED'){%>
+            <a id="item<%-id%>" class="btn_time"><i class="icon fl"></i><i id="<%-id%>" class="fl"><%-downTime%></i></a>
+        <%}else if(status == 'FINISHED'){%>
+            <a class="btn_gray">已满标</a>
+        <%}else if(status == 'SETTLED'){%>
+            <a class="btn_gray">还款中</a>
+        <%}else if(status == 'CLEARED'){%>
+            <a class="btn_gray">还款结束</a>
+        <%}%>
+	</p>
+</div>

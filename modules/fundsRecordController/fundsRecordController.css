@@ -1,0 +1,36 @@
+.funds_record_module{
+
+}
+.funds_record_module .item{
+height: 51px;
+  border-bottom: 1px solid #d6d3d3;
+}
+.funds_record_module .item .info{
+margin: 5px 15px;
+}
+.funds_record_module .item i{
+  font-style: normal;
+  display: block;
+}
+.funds_record_module .item .name{
+font-size: 14px;
+  color: #333;
+  line-height: 27px;
+  height: 27px;
+}
+.funds_record_module .item .time{
+  font-size: 11px;
+  color: #666;
+}
+.funds_record_module .item .money{
+  color: #333;
+  font-size: 16px;
+  line-height: 51px;
+  margin-right: 15px;
+}
+.funds_record_module .item .money.red{
+ color: #c00000;
+}
+.funds_record_module .item .money.gree{
+color: #109a37;
+}

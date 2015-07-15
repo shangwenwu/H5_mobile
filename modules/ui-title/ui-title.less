@@ -1,0 +1,34 @@
+.module_title {
+  position: relative;
+  background-color: #FFFFFF;
+  height: 43px;
+  line-height: 43px;
+  font-size: 20px;
+  text-align: center;
+  .return {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43px;
+    height: 43px;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      left: 18px;
+      width: 0;
+      height: 12px;
+      border-right: 1px #394160 solid;
+    }
+    &:before {
+      top: 10px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+    &:after {
+      top: 18px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<div class="succeedModule">
+	<div class="succeedImg"></div>
+	<div class="g_tac g_f20 g_blue"><%- title %></div>
+	<% if (description) { %>
+		<div class="g_mt40 g_darkgray g_f14">
+			<%- description %>
+		</div>
+	<% } %>
+
+	<% if (butOption) { %>
+		<% if (butOption.length === 1) { %>
+			<a class="ui_btn ui_btn_blue g_mt30" id="<%- id %>_0" ><%- butOption[0].text %></a>
+		<% } else { %>
+			<a class="ui_btn ui_btn_blue g_mt30" id="<%- id %>_0" ><%- butOption[0].text %></a>
+			<a class="ui_btn ui_btn_white g_mt10" id="<%- id %>_1" ><%- butOption[1].text %></a>
+		<% } %>
+	<% } %>
+</div>

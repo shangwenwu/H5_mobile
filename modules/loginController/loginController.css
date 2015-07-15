@@ -1,0 +1,45 @@
+.login_page_module {
+	margin: 0px 12px;
+}
+.login_page_module .item {
+	position: relative;
+	/*width: 100%;*/
+	margin-bottom: 16px;
+	background-color: #fff;
+	padding-left: 20px;
+	height: 38px;
+	line-height: 38px;
+	border-radius: 3px;
+}
+.login_page_module .item .login_input {
+	border: none;
+	height: 20px;
+	padding: 9px 0px;
+	line-height: normal;
+	width: 90%;
+}
+.login_page_module .ui_btn {
+	margin-top: 5px;
+}
+.login_page_module .show_pass {
+	position: absolute;
+	right: 10px;
+	top: 14px;
+	width: 22px;
+	height: 11px;
+	background: url(images/close.png);
+	background-size: 22px 11px;
+}
+.login_page_module .show_pass.open{
+	background-image: url(images/open.png);
+}
+.login_page_module .actions a {
+	line-height: 30px;
+	color: #6c7cb0;
+}
+.login_page_module .actions .reg {
+	float: left;
+}
+.login_page_module .actions .forget_pass {
+	float: right;
+}

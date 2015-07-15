@@ -1,0 +1,19 @@
+{
+	"status":"200",
+	"message":"ok",
+	"data":{
+		"results":[
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"},
+			{"time":"2015-05-12","type":"投标","operation":"操作1","income":"12.34","disbursement":"11.2","remaining":"124.2","note":"充值"}
+		],
+		"totalSize":"56"
+	}
+}

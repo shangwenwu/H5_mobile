@@ -1,0 +1,183 @@
+@boder_color: #D7D3D4;
+
+.module_account {
+  .base_info {
+    .info_income {
+      position: relative;
+      color: #FFFFFF;
+      .username, .total {
+        position: absolute;
+        left: 0;
+        width: 100%;
+      }
+      .username {
+        top: 10%;
+        font-size: 26px;
+      }
+      .total {
+        bottom: 10%;
+        .num {
+          font-size: 26px;
+          color: #B59E69;
+        }
+        .text {
+          font-size: 14px;
+        }
+      }
+    }
+    .info_detail {
+      padding: 10px 0;
+      background-color: #ffffff;
+      ul.detail_list {
+        display: -webkit-flex;
+        display: -webkit-box;
+        display: flex;
+        .item {
+          -webkit-flex: 1;
+          -webkit-box-flex: 1;
+          flex: 1;
+          border-right: 1px @boder_color solid;
+          .num, .text {
+            text-align: center;
+          }
+          .num {
+            font-size: 18px;
+          }
+          .text {
+            font-size: 14px;
+            color: #AEAEAE;
+          }
+        }
+      }
+      ul.detail_list:last-child {
+        border-right: none;
+      }
+    }
+  }
+  .operate {
+    padding: 8px 5px;
+    .operate_box {
+      display: -webkit-flex;
+      display: -webkit-box;
+      display: flex;
+      .operate_item {
+        display: block;
+        -webkit-flex: 1;
+        -webkit-box-flex: 1;
+        flex: 1;
+        font-size: 18px;
+      }
+      .operate_item_recharge {
+        margin-right: 5px;
+      }
+      .text {
+        vertical-align: middle;
+        letter-spacing: 10px;
+      }
+    }
+  }
+  .item_sxy{
+    padding: 10px 15px 10px 20px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    color: #2C2E47;
+    .text {
+      vertical-align: middle;
+    }
+  }
+  .more_info {
+    .item {
+      margin-bottom: 2px;
+      .item_link {
+        display: block;
+        padding: 10px 15px 10px 20px;
+        background-color: #ffffff;
+        color: #2C2E47;
+        .text {
+          vertical-align: middle;
+        }
+      }
+      .more {
+
+      }
+    }
+  }
+  .logout {
+    margin: 10px 0;
+    .logout_btn {
+      border: none;
+    }
+  }
+  .icon {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  .icon_sxy {
+    width: 20px;
+    height: 17px;
+    background: url(./img/sxy.png) 0 0 no-repeat;
+    background-size: 20px 17px;
+  }
+  .icon_recharge {
+    width: 18px;
+    height: 18px;
+    background: url(./img/chongzhi.png) 0 0 no-repeat;
+    background-size: 18px 18px;
+  }
+  .icon_withdraw {
+    width: 23px;
+    height: 18px;
+    background: url(./img/tixian.png) 0 0 no-repeat;
+    background-size: 23px 18px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+  .icon_more {
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 20px;
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      right: 0;
+      width: 0;
+      height: 10px;
+      border-right: 1px #D8D8D8 solid;
+    }
+    &:before {
+      top: 5px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+    &:after {
+      top: 12px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+  .icon_my {
+    background: url(./img/wodetouzi.png) 0 0 no-repeat;
+    background-size: 18px 20px;
+  }
+  .icon_zijin {
+    background: url(./img/zijinjilu.png) 0 0 no-repeat;
+    background-size: 17px 20px;
+  }
+  .icon_daishou {
+    background: url(./img/daishouchaxun.png) 0 0 no-repeat;
+    background-size: 20px 20px;
+  }
+  .icon_yinhangka {
+    background: url(./img/yinhangka.png) 0 0 no-repeat;
+    background-size: 28px 20px;
+  }
+  .icon_hongbao {
+    background: url(./img/wodehongbao.png) 0 0 no-repeat;
+    background-size: 29px 20px;
+  }
+}

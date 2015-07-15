@@ -1,0 +1,10 @@
+
+{
+	"status":"200",
+	"message":"ok",
+	"data":{
+		"last4BankCardNo":5801,
+		"bankCode":"CMB",
+		"availableWithdrawAmount": 14.3
+	}
+}
