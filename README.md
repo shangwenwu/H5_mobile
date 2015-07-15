@@ -105,6 +105,7 @@ J.Common.tip({
         console.log('xxxxxx');
     }
 });
+```
 
 ### 成功页组件 （succeed 文件夹），赋予J.Common命名空间下，具体用法如下——
 
@@ -150,3 +151,4 @@ J.Common.succeed({
         }
     ]
 });
+```
