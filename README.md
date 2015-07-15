@@ -113,9 +113,9 @@ J.Common.tip({
 
   字段 | 描述 | 选项 | 备注
   ----|----|----
-  id | 插入到的Dom | 必填 | 
-  title | 主提示语 | 必填 | 
-  description | 文本描述 | 可选 | 
+  id | 插入到的Dom | 必填 | 无
+  title | 主提示语 | 必填 | 无
+  description | 文本描述 | 可选 | 无
   butOption | 操作按钮组 | 可选 | Array长度最长为2
 
 > 用法：
